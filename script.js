@@ -932,6 +932,78 @@ const su = {
 //     sixV: "ЖП"      // 6в
 // }; // База данных на вторник
 
+zagolovokDenNedely.textContent = `Понедельник`;
+
+sixA1.textContent = pn.sixA;
+sixB1.textContent = pn.sixB;
+sixV1.textContent = pn.sixV;
+sevenA1.textContent = pn.sevenA;
+sevenB1.textContent = pn.sevenB;
+sevenV1.textContent = pn.sevenV;
+eightA1.textContent = pn.eightA;
+eightB1.textContent = pn.eightB;
+eightV1.textContent = pn.eightV;
+
+sixA2.textContent = pn.sixA1;
+sixB2.textContent = pn.sixB1;
+sixV2.textContent = pn.sixV1;
+sevenA2.textContent = pn.sevenA1;
+sevenB2.textContent = pn.sevenB1;
+sevenV2.textContent = pn.sevenV1;
+eightA2.textContent = pn.eightA1;
+eightB2.textContent = pn.eightB1;
+eightV2.textContent = pn.eightV1;
+
+sixA3.textContent = pn.sixA2;
+sixB3.textContent = pn.sixB2;
+sixV3.textContent = pn.sixV2;
+sevenA3.textContent = pn.sevenA2;
+sevenB3.textContent = pn.sevenB2;
+sevenV3.textContent = pn.sevenV2;
+eightA3.textContent = pn.eightA2;
+eightB3.textContent = pn.eightB2;
+eightV3.textContent = pn.eightV2;
+
+sixA4.textContent = pn.sixA3;
+sixB4.textContent = pn.sixB3;
+sixV4.textContent = pn.sixV3;
+sevenA4.textContent = pn.sevenA3;
+sevenB4.textContent = pn.sevenB3;
+sevenV4.textContent = pn.sevenV3;
+eightA4.textContent = pn.eightA3;
+eightB4.textContent = pn.eightB3;
+eightV4.textContent = pn.eightV3;
+
+sixA5.textContent = pn.sixA4;
+sixB5.textContent = pn.sixB4;
+sixV5.textContent = pn.sixV4;
+sevenA5.textContent = pn.sevenA4;
+sevenB5.textContent = pn.sevenB4;
+sevenV5.textContent = pn.sevenV4;
+eightA5.textContent = pn.eightA4;
+eightB5.textContent = pn.eightB4;
+eightV5.textContent = pn.eightV4;
+
+sixA6.textContent = pn.sixA5;
+sixB6.textContent = pn.sixB5;
+sixV6.textContent = pn.sixV5;
+sevenA6.textContent = pn.sevenA5;
+sevenB6.textContent = pn.sevenB5;
+sevenV6.textContent = pn.sevenV5;
+eightA6.textContent = pn.eightA5;
+eightB6.textContent = pn.eightB5;
+eightV6.textContent = pn.eightV5;
+
+sixA7.textContent = pn.sixA6;
+sixB7.textContent = pn.sixB6;
+sixV7.textContent = pn.sixV6;
+sevenA7.textContent = pn.sevenA6;
+sevenB7.textContent = pn.sevenB6;
+sevenV7.textContent = pn.sevenV6;
+eightA7.textContent = pn.eightA6;
+eightB7.textContent = pn.eightB6;
+eightV7.textContent = pn.eightV6;
+
 ponedelnik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Понедельник`;
 
