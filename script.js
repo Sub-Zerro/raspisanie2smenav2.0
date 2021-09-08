@@ -441,9 +441,9 @@ const pn = {
     sevenA1: "Информатика",
     sevenB1: "Физкультура",
     sevenV1: "Математика",
-    eightA1: "",
-    eightB1: "",
-    eightV1: "",
+    eightA1: "География",
+    eightB1: "Биология",
+    eightV1: "Математика",
 
     sixA2: "Русск.яз",
     sixB2: "Физкультура",
