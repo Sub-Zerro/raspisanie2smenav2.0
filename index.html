@@ -150,7 +150,7 @@
     </div>
 </div>
     <div class="dropdown1">
-    <button onclick="myFunction()" class="dropbtn1">Класс</button>
+    <button onclick="myFunction1()" class="dropbtn1">Класс</button>
     <div id="myDropdown1" class="dropdown-content1">
         <a href="#" id="6a">6а</a>
         <a href="#" id="6b">6б</a>
@@ -174,6 +174,22 @@
         if (!event.target.matches('.dropbtn')) {
 
             var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    function myFunction1() {
+        document.getElementById("myDropdown1").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn1')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content1");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
                 var openDropdown = dropdowns[i];
