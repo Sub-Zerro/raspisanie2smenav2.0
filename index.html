@@ -79,42 +79,6 @@
 
         .dropdown a:hover {background-color: #ddd;}
         
-        .dropbtn1 {
-            background-color: #3498DB;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-
-        .dropbtn1:hover, .dropbtn1:focus {
-            background-color: #2980B9;
-        }
-
-        .dropdown1 {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content1 {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 160px;
-            overflow: auto;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content1 a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-        .dropdown1 a:hover {background-color: #ddd;}
         
         .show {display: block;}
         
@@ -163,20 +127,6 @@
         <a href="#" id="sb">Суббота</a>
     </div>
 </div>
-    <div class="dropdown1">
-    <button onclick="myFunction1()" class="dropbtn1">Класс</button>
-    <div id="myDropdown1" class="dropdown-content1">
-        <a href="#" id="6a">6а</a>
-        <a href="#" id="6b">6б</a>
-        <a href="#" id="6v">6в</a>
-        <a href="#" id="7a">7а</a>
-        <a href="#" id="7b">7б</a>
-        <a href="#" id="7v">7в</a>
-        <a href="#" id="8a">8а</a>
-        <a href="#" id="8b">8б</a>
-        <a href="#" id="8v">8в</a>
-    </div>
-</div>
 </h2>
 
 
@@ -197,22 +147,7 @@
             }
         }
     }
-    function myFunction1() {
-        document.getElementById("myDropdown1").classList.toggle("show1");
-    }
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn1')) {
-
-            var dropdowns1 = document.getElementsByClassName("dropdown-content1");
-            var i;
-            for (i = 0; i < dropdowns1.length; i++) {
-                var openDropdown = dropdowns1[i];
-                if (openDropdown.classList.contains('show1')) {
-                    openDropdown.classList.remove('show1');
-                }
-            }
-        }
-    }
+    
 </script>
 
 <table>
@@ -337,9 +272,7 @@
     </tr>
 </table>
 <footer>
-        <p>© Рома и Николай <br \> <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Помощь</button>
-</div></p>
+        <p>© Рома и Николай <br \>></p>
     </footer>
 <script src="script.js"></script>
 
