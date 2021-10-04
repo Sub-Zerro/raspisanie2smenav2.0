@@ -9,16 +9,40 @@
         body{
             background-color: aliceblue;
         }
-        footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #45a1ff;
-    color: #fff;
-    width: 100%;
-    height: 30px;
-    position: fixed;
-    bottom: 0;
+        .top-menu {
+  position: relative; 
+  background: rgb(36, 140, 230);
+  box-shadow: inset 0 0 10px #ccc;
+}
+.menu-main {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+.menu-main li {
+  display: inline-block;
+  padding: 5px 0;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 5px;
+  padding: 6px 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+  transition: .3s linear;
+}
+.menu-main a:hover {
+  border-radius: 3px;
+  background: #2df3ec;
+  color: #313131;
+  text-shadow: 0 1px 0 #fff;
+  border-color: #c6c6c6;
 }
         .Rasp{
             padding: 30px;
@@ -113,7 +137,15 @@
     </style>
 </head>
 <body>
-<a class="buttons" href='https://sub-zerro.github.io/raspisanie1smenav2.0/' >Переключиться на 1 смену</a>
+<nav class="top-menu">
+  <ul class="menu-main">
+    <li><a href="https://sub-zerro.github.io/raspisanie1smenav2.0/">1 Смена</a></li>
+    <li><a href="https://sub-zerro.github.io/raspisanie2smenav2.0/">2 Смена</a></li>
+    <li><a href="https://sub-zerro.github.io/raspisanie1smenav2.0Izmenenia-/">1 Смена изменения</a></li>
+    <li><a href="https://sub-zerro.github.io/raspisanie2smenav2.0Izmenenia-/">2 Смена изменения</a></li>
+    <li><a href="">Авторы</a></li>
+  </ul>
+</nav>
 <h2 class ="Rasp">
     Расписание 
     <div class="dropdown">
@@ -271,9 +303,6 @@
         <th></th>
     </tr>
 </table>
-<footer>
-        <p>© Рома и Николай <br \></p>
-    </footer>
 <script src="script.js"></script>
 
 </body>
